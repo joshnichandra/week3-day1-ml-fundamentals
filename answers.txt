@@ -1,0 +1,100 @@
+PART 5 – Train Your First Model
+
+1. What is the slope?
+
+The slope is the coefficient value of a feature in a Linear Regression model. It shows how much the predicted value changes when the feature increases by one unit while keeping other features constant.
+
+2. What is the intercept?
+
+The intercept is the predicted value when all feature values are zero. It is the starting point of the regression equation.
+
+3. What do they mean?
+
+The slope and intercept help explain the relationship between the input features and the target variable. They are used by the model to make predictions.
+
+
+
+PART 8 – Model Evaluation
+
+1. What is MAE?
+
+MAE (Mean Absolute Error) measures the average difference between actual values and predicted values. A lower MAE indicates better model performance.
+
+2. What is R² Score?
+
+R² Score measures how well the model explains the variation in the target variable. Its value ranges from 0 to 1, and values closer to 1 indicate better performance.
+
+3. Is your model performing well?
+
+Yes. The model is performing well because the prediction error is low and the R² Score is close to 1, indicating accurate predictions.
+
+
+
+PART 10 - Student Research Activity
+
+1.What is Machine Learning?
+
+Machine Learning is a branch of Artificial Intelligence (AI) that enables computers to learn from data and make decisions or predictions without being explicitly programmed for every task. Instead of following fixed instructions, machine learning systems identify patterns in data and use those patterns to improve their performance over time. For example, when a student studies previous exam papers, they learn common question patterns and perform better in future exams. Machine learning works in a similar way by learning from examples.
+
+Machine learning is widely used in modern technology. Applications include recommendation systems on streaming platforms, email spam filtering, online shopping suggestions, speech recognition, and image classification. There are different types of machine learning, such as supervised learning, unsupervised learning, and reinforcement learning. In supervised learning, the model learns from labeled data, while unsupervised learning finds hidden patterns in unlabeled data.
+
+Machine learning helps organizations make better decisions, automate repetitive tasks, and analyze large amounts of data quickly. It has become an important part of many industries including healthcare, education, banking, and transportation.
+
+
+
+
+
+2.What is Linear Regression?
+
+Linear Regression is one of the simplest and most widely used machine learning algorithms. It is a supervised learning technique used to predict continuous numerical values. The main goal of linear regression is to find a relationship between one or more input variables (features) and an output variable (label). It does this by fitting a straight line through the data points that best represents the relationship between the variables.
+
+For example, in a student performance dataset, study hours, attendance, and assignments can be used to predict marks. Linear regression analyzes how these factors affect the final marks and creates an equation that can estimate future results. The equation contains coefficients, also known as slopes, and an intercept. These values help the model make predictions.
+
+Linear regression is easy to understand and implement, making it a popular choice for beginners in machine learning. It is commonly used in fields such as finance, education, sales forecasting, and business analysis. Although it is simple, it can provide accurate predictions when there is a strong linear relationship between the variables.
+
+
+
+
+
+3.What are Features?
+
+Features are the input variables used by a machine learning model to make predictions. They contain information that helps the model learn patterns and relationships within the data. Features are sometimes called independent variables because they are used as inputs to predict another variable. Choosing the right features is important because they directly affect the accuracy and performance of the model.
+
+In the student performance project, Study_Hours, Attendance, and Assignments are the features. These factors influence a student's marks, so they are used as inputs for the machine learning model. During training, the model analyzes how changes in these features affect the target variable.
+
+Good features provide useful and relevant information about the problem being solved. Poor or irrelevant features may reduce the model's performance and lead to inaccurate predictions. Feature selection is therefore an important step in the machine learning workflow. By selecting meaningful features, the model can learn more effectively and make better predictions on new data. Features are essential because they provide the information needed for the machine learning algorithm to learn from data.
+
+
+
+
+
+4.What are Labels?
+
+Labels are the output values that a machine learning model is trained to predict. They are also called target variables or dependent variables. In supervised learning, the model learns from examples where both the input features and the correct output labels are provided. The purpose of training is to help the model understand the relationship between the features and the labels.
+
+In this project, Marks is the label because it is the value being predicted. The features such as Study_Hours, Attendance, and Assignments are used to estimate the student's marks. During training, the model compares its predictions with the actual labels and adjusts itself to improve accuracy.
+
+Labels are important because they provide the correct answers that guide the learning process. Without labels, a supervised learning model would not know what it is supposed to predict. Accurate labels help the model learn effectively and make reliable predictions. In real-world applications, labels can represent prices, sales, medical diagnoses, customer ratings, or any other outcome that needs to be predicted.
+
+
+
+
+
+5.What is the difference between Training Data and Testing Data?
+
+Training data and testing data are two important parts of a machine learning dataset. Training data is used to teach the model and help it learn patterns from the data. During training, the model analyzes the relationship between the features and labels and creates a mathematical representation that can be used for prediction.
+
+Testing data, on the other hand, is used to evaluate the model after training. It contains data that the model has not seen before. By testing the model on unseen data, we can determine how well it performs in real-world situations. This helps identify whether the model has learned useful patterns or simply memorized the training examples.
+
+In this project, the dataset was split into 80% training data and 20% testing data. The training portion was used to build the Linear Regression model, while the testing portion was used to check its accuracy. A proper train-test split helps ensure that the model is reliable, accurate, and capable of making predictions on new data.
+
+
+
+
+
+6.Where is Machine Learning used in real life?
+Machine Learning is used in many real-life applications that people interact with every day. One common example is recommendation systems used by online shopping websites and streaming platforms. These systems analyze user behavior and suggest products, movies, or songs that users may like. Another application is email spam filtering, where machine learning helps identify unwanted messages automatically.
+
+In healthcare, machine learning is used to assist doctors in diagnosing diseases, analyzing medical images, and predicting patient outcomes. In banking and finance, it helps detect fraudulent transactions, assess credit risk, and forecast market trends. Transportation companies use machine learning in navigation systems and self-driving vehicle research.
+
+Machine learning is also used in education, where it can help predict student performance and provide personalized learning experiences. Social media platforms use machine learning to recommend content and improve user engagement. Because of its ability to analyze large amounts of data and make accurate predictions, machine learning has become an important technology across many industries and continues to grow in importance every year.

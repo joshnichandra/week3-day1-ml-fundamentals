@@ -1,0 +1,62 @@
+MACHINE LEARNING WORKFLOW
+
+1. Data Collection
+
+Data collection is the first step in the machine learning process.
+It involves gathering relevant information from different sources.
+The quality of the data plays an important role in building a good model. 
+In this project, student performance data such as study hours, attendance,
+assignments, and marks were collected. This data is used to train and evaluate
+the machine learning model.
+
+2. Data Cleaning
+
+Data cleaning is the process of preparing the dataset by removing errors
+and inconsistencies. It helps improve the accuracy of the model. Common cleaning 
+tasks include handling missing values, removing duplicate records, and correcting 
+incorrect data. A clean dataset ensures that the machine learning algorithm learns
+from reliable information. In this project, the dataset was already clean and did not
+require major modifications.
+
+3. Feature Selection
+
+Feature selection involves choosing the input variables that will be used to train the model.
+Selecting the right features helps improve model performance and reduces unnecessary
+complexity. In this project, Study_Hours, Attendance, and Assignments were selected as 
+features because they influence student marks. These features provide useful information 
+for predicting performance.
+
+4. Train-Test Split
+
+The dataset is divided into training data and testing data. The training data is used 
+to teach the model, while the testing data is used to evaluate its performance. 
+Splitting the data helps determine how well the model works on unseen data. In this project, 
+80% of the data was used for training and 20% was used for testing.
+
+5. Model Training
+
+Model training is the process of teaching the machine learning algorithm using the training 
+dataset. The algorithm learns patterns and relationships between the features and the target 
+variable. In this project, Linear Regression was used to build the predictive model. The trained 
+model learns how study hours, attendance, and assignments affect student marks.
+
+6. Testing
+
+Testing is performed after the model has been trained. The testing dataset contains data 
+that the model has not seen before. The model makes predictions on this data, and the results 
+are compared with the actual values. This step helps determine whether the model can make 
+accurate predictions on new data.
+
+7. Evaluation
+
+Evaluation measures the performance of the machine learning model. Metrics such as 
+Mean Absolute Error (MAE) and R² Score are used to assess prediction accuracy. A low MAE 
+indicates smaller prediction errors, while a high R² Score indicates a better fit. Evaluation 
+helps determine whether the model is reliable and effective.
+
+8. Prediction
+
+Prediction is the final step in the machine learning workflow. After the model has been 
+trained and evaluated, it can be used to predict outcomes for new data. In this project, 
+the model was used to predict student marks based on study hours, attendance, and assignment 
+completion. These predictions can help estimate future student performance.
